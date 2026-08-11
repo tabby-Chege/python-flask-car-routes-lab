@@ -4,6 +4,7 @@ from flask import Flask
 existing_models = ['Beedle', 'Crossroads', 'M2', 'Panique']
 
 app = Flask(__name__)
+application = app
 
 
 @app.route('/')
